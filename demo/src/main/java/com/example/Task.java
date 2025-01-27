@@ -6,11 +6,22 @@ public class Task {
     private String description;
     private boolean isDone;
     
-    
     public Task(int id, String description, boolean isDone){
         this.id = id;
         this.description = description;
         this.isDone = isDone;
+    }
+
+    public Task(String description, boolean isDone){
+        this.id = -1;
+        this.description = description;
+        this.isDone = isDone;
+    }
+
+    public Task(String description){
+        this.id = -1;
+        this.description = description;
+        this.isDone =false;
     }
     
     public int getId() {

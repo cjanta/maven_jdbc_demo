@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="8.45.1">
-<file name="C:\Users\SKAN117\Documents\VSCWorkspaces\maven_jdbc\demo\src\main\java\com\example\App.java">
-<error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="26" column="1" severity="error" message="Der Block-Kommentar hat eine unerwartete Einrückungstiefe von 0 (erwartet: 4) und sollte auf der gleichen Höhe liegen wie Zeile 30." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="27" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="30" column="5" severity="error" message="&apos;METHOD_DEF&apos; sollte durch eine Leerzeile von der vorherigen Zeile getrennt sein." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
-</file>
-</checkstyle>

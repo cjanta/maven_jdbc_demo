@@ -9,7 +9,7 @@
         },
         {
             "type": "java",
-            "name": "Launch It!",
+            "name": "Launch Debug",
             "request": "launch",
             "mainClass": "${file}",
             "console": "internalConsole"
